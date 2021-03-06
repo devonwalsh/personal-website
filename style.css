@@ -31,3 +31,7 @@ body {
 .nav a:hover {
   background-color: #f4acb7;
 }
+.nav img {
+  float: right;
+  padding: 5px;
+}
