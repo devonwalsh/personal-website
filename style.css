@@ -1,5 +1,5 @@
 body {
-  background: url(pexels-photo-255379.jpeg);
+  background: url('./pexels-photo-255379.jpeg');
   z-index: -1;
 }
 #landing {
