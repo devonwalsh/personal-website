@@ -1,4 +1,15 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript";
+let i = 0;
+const txt = "Hi, I'm Devon Walsh.";
+const speed = 100;
 
-document.querySelector('body').appendChild(h2);
+function typeWriter() {
+    if (i < txt.length) {
+      document.getElementById("landing").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
+  }
+
+window.onload = function() {
+    typeWriter();
+  };

@@ -1,6 +1,7 @@
 body {
-    background: #FFFFFF;
-  }
+  background: url(pexels-photo-255379.jpeg);
+  z-index: -1;
+}
 #landing {
   position: absolute;
   top: 50%;
@@ -10,7 +11,7 @@ body {
   text-align: center;
   font-family: "Helvetica Neue";
   font-size: 40px;
-  color: #61c0bf;
+  color: #FFFFFF;
 }
 .nav {
   background-color: #ffcad4;
